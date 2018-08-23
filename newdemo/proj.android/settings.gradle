@@ -1,0 +1,10 @@
+include ':libcocos2dx'
+project(':libcocos2dx').projectDir = new File(settingsDir, '../cocos2d/cocos/platform/android/libcocos2dx')
+include ':newdemo'
+project(':newdemo').projectDir = new File(settingsDir, 'app')
+include ':lw_common'
+project(':lw_common').projectDir = new File(settingsDir, '../lw_common')
+include ':lw_common_ui'
+project(':lw_common_ui').projectDir = new File(settingsDir, '../lw_common_ui')
+include ':lw_common_net'
+project(':lw_common_net').projectDir = new File(settingsDir, '../lw_common_net')
